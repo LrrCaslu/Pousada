@@ -81,3 +81,4 @@ A verificação estática (lint PHP, JavaScript, balanceamento de diretivas Blad
 ## 7. Observações de segurança
 
 As fotografias e dados são fictícios. O projeto não está homologado para produção. É necessário revisar LGPD, integrações financeiras, restrições de reserva concorrente, acesso/privacidade, autenticação, rotinas de backup e testes end-to-end com seu banco e servidor antes de expor o site ao público.
+Necessita descompactar os arquivos .zip
