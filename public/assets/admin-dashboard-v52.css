@@ -1,0 +1,67 @@
+/* Pousada Costa Serena | V5.2 | refinamento exclusivo da visao geral.
+   Nenhum valor de KPI e calculado no CSS: os dados seguem vindo do Laravel. */
+.cs-ref-body .ref-dashboard { --v52-gold:#bf9650; --v52-forest:#0e6048; --v52-slate:#536960; }
+.cs-ref-body .ref-dashboard .ref-overline { display:inline-flex;align-items:center;gap:7px;font-size:10px;font-weight:850;letter-spacing:.14em;color:#258568;margin-bottom:7px; }
+.cs-ref-body .ref-dashboard .ref-overline::before{content:"";height:7px;width:7px;border-radius:50%;background:#29a178;box-shadow:0 0 0 4px #e8f5ed;}
+.cs-ref-body .ref-dashboard .ref-dashboard-heading{margin-bottom:20px;}
+.cs-ref-body .ref-dashboard .ref-kpis{gap:15px;margin-bottom:17px;}
+.cs-ref-body .ref-dashboard .ref-kpi{border-radius:15px;min-height:162px;padding:17px 17px 15px;border-color:#e3eae5;box-shadow:0 4px 14px #17372a0b,0 1px 2px #18372d0a;}
+.cs-ref-body .ref-dashboard .ref-kpi::after{content:"";position:absolute;top:0;right:0;width:84px;height:84px;border-radius:0 0 0 100%;background:#fff9;opacity:.18;pointer-events:none;}
+.cs-ref-body .ref-dashboard .ref-kpi-number{font-variant-numeric:tabular-nums;}
+.cs-ref-body .ref-dashboard .ref-kpi-bottom{padding-top:4px;}
+.cs-ref-body .ref-dashboard .ref-panel{border-radius:15px;padding:18px 19px 17px;box-shadow:0 5px 18px #1435260e,0 1px 2px #14352608;border-color:#e7ebe7;}
+.cs-ref-body .ref-dashboard .ref-panel-heading{min-height:29px;gap:8px;}
+.cs-ref-body .ref-dashboard .ref-panel-heading h2{font-size:14px;font-weight:800;letter-spacing:-.025em;}
+.cs-ref-body .ref-dashboard .ref-panel-heading h2 small{font-size:10px;font-weight:500;color:#819087;}
+.cs-ref-body .ref-dashboard .ref-svg-chart{height:226px;position:relative;}
+.cs-ref-body .ref-dashboard .ref-monthly-chart{height:205px;}
+.cs-ref-body .ref-dashboard .ref-occupancy-panel{background:linear-gradient(165deg,#fff 40%,#f9fcfa 100%);}
+.cs-ref-body .ref-dashboard .ref-roomrate-track{height:10px;}
+.cs-ref-body .ref-dashboard .ref-arrival{padding:10px 0;}
+.cs-ref-body .ref-dashboard .ref-donut-layout{min-height:214px;}
+.cs-ref-body .ref-dashboard .ref-donut{filter:drop-shadow(0 4px 7px #10382612);}
+.cs-ref-body .ref-dashboard .ref-actions-footer{margin-top:17px;}
+.cs-ref-body .ref-dashboard .ref-panel a.v52-panel-link{display:inline-flex;align-items:center;gap:5px;font-weight:750;font-size:10.5px;line-height:1.2;color:#0c7652;border:1px solid #d8e9df;border-radius:7px;padding:6px 8px;background:#f6fbf8;white-space:nowrap;text-decoration:none;transition:background-color .18s,border-color .18s;}
+.cs-ref-body .ref-dashboard .ref-panel a.v52-panel-link:hover{background:#e4f5eb;border-color:#a8d6bc;}
+.cs-ref-body .ref-dashboard .ref-panel .v52-panel-link span{font-size:12px;}
+.cs-ref-body .ref-dashboard .v52-context-note{font-size:10px;color:#8a9a92;line-height:1.5;margin:5px 0 0;}
+/* Acoes operacionais clicaveis: status nao e apresentado como mudanca real de reserva. */
+.cs-ref-body .ref-dashboard .v52-operational{background:linear-gradient(100deg,#f1f9f5,#fff 46%,#fbf6ee);border:1px solid #dfebe1;border-radius:15px;padding:15px 17px 17px;margin:0 0 16px;box-shadow:0 3px 12px #153f2c0a;}
+.cs-ref-body .ref-dashboard .v52-operational-heading{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:12px;}
+.cs-ref-body .ref-dashboard .v52-eyebrow{font-weight:850;color:#549374;font-size:9px;letter-spacing:.13em;}
+.cs-ref-body .ref-dashboard .v52-operational-heading h2{font-weight:850;font-size:16px;color:#203a30;margin:4px 0 0;letter-spacing:-.025em;}
+.cs-ref-body .ref-dashboard .v52-date{display:inline-flex;align-items:center;gap:5px;color:#527267;font-size:11px;font-weight:650;white-space:nowrap;}
+.cs-ref-body .ref-dashboard .v52-date .ref-icon{width:14px;height:14px;}
+.cs-ref-body .ref-dashboard .v52-operational-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:10px;}
+.cs-ref-body .ref-dashboard .v52-operational-item{position:relative;display:flex;align-items:center;min-width:0;gap:10px;min-height:89px;background:#fff;border:1px solid #e4eae5;border-radius:11px;padding:12px 13px;color:#223b30;text-decoration:none;transition:border-color .16s,transform .16s,box-shadow .16s;}
+.cs-ref-body .ref-dashboard a.v52-operational-item:hover{border-color:#9acbab;transform:translateY(-2px);box-shadow:0 8px 18px #1e65451a;text-decoration:none;}
+.cs-ref-body .ref-dashboard .v52-operational-icon{display:grid;place-items:center;width:39px;height:39px;flex:none;border-radius:11px;background:#e7f6ef;color:#08764f;}
+.cs-ref-body .ref-dashboard .v52-operational-icon .ref-icon{width:20px;height:20px;}
+.cs-ref-body .ref-dashboard .v52-operational-copy{display:flex;flex-direction:column;min-width:0;flex:1;gap:3px;}
+.cs-ref-body .ref-dashboard .v52-operational-copy>span{font-size:10.5px;font-weight:700;color:#536d5e;line-height:1.25;}
+.cs-ref-body .ref-dashboard .v52-operational-copy strong{font-size:23px;font-weight:850;letter-spacing:-.04em;color:#1e3d32;line-height:1.05;font-variant-numeric:tabular-nums;}
+.cs-ref-body .ref-dashboard .v52-operational-copy small{font-size:9px;color:#87988f;line-height:1.25;}
+.cs-ref-body .ref-dashboard .v52-operational-arrow{font-size:17px;color:#8bb8a2;align-self:flex-start;}
+.cs-ref-body .ref-dashboard .v52-departures .v52-operational-icon{background:#eaf3ff;color:#3d78b9;}
+.cs-ref-body .ref-dashboard .v52-pending .v52-operational-icon{background:#fff4e1;color:#b87918;}
+.cs-ref-body .ref-dashboard .v52-pending.has-attention{border-color:#f1dfbb;background:#fffcf6;}
+.cs-ref-body .ref-dashboard .v52-housekeeping .v52-operational-icon{background:#f1eefe;color:#7965bd;}
+.cs-ref-body .ref-dashboard .v52-operational-item:focus-visible,.cs-ref-body .ref-dashboard a.v52-panel-link:focus-visible{outline:3px solid #7abda3;outline-offset:2px;}
+/* Barra de capacidade com mesma base (quartos ativos) dos estados logo acima. */
+.cs-ref-body .ref-dashboard .v52-capacity{margin-top:12px;}
+.cs-ref-body .ref-dashboard .v52-capacity-track{width:100%;height:9px;display:flex;overflow:hidden;border-radius:99px;background:#e9edeb;}
+.cs-ref-body .ref-dashboard .v52-capacity-track>span{display:block;height:100%;}
+.cs-ref-body .ref-dashboard .v52-capacity-available{background:#54bb87;}
+.cs-ref-body .ref-dashboard .v52-capacity-occupied{background:#e4ab4e;}
+.cs-ref-body .ref-dashboard .v52-capacity-blocked{background:#8d94e9;}
+.cs-ref-body .ref-dashboard .v52-capacity small{display:block;font-size:9px;color:#88988f;margin-top:6px;}
+/* Tooltip do grafico: visivel no mouse/toque e tambem no teclado. */
+.cs-ref-body .ref-dashboard .ref-svg-chart{position:relative;}
+.cs-ref-body .ref-dashboard .v52-chart-tooltip{position:absolute;z-index:3;display:block;max-width:min(245px,calc(100% - 16px));min-width:150px;padding:9px 12px;border-radius:10px;color:#f1faf5;background:#143e31;box-shadow:0 9px 24px #122f2480;font-size:11px;line-height:1.5;font-weight:650;text-align:left;pointer-events:none;transform:translate(-50%,-100%);opacity:0;transition:opacity .1s;white-space:pre-line;}
+.cs-ref-body .ref-dashboard .v52-chart-tooltip[data-visible="true"]{opacity:1;}
+.cs-ref-body .ref-dashboard .v52-chart-tooltip::after{content:"";position:absolute;left:calc(50% - 5px);bottom:-5px;width:10px;height:10px;background:#143e31;transform:rotate(45deg);}
+.cs-ref-body .ref-dashboard .ref-svg-chart svg:focus-visible{outline:2px solid #6caf90;outline-offset:-1px;border-radius:8px;}
+@media(max-width:1100px){.cs-ref-body .ref-dashboard .v52-operational-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.cs-ref-body .ref-dashboard .ref-panel{padding:15px;}.cs-ref-body .ref-dashboard .ref-svg-chart{height:207px;}.cs-ref-body .ref-dashboard .ref-monthly-chart{height:197px;}}
+@media(max-width:690px){.cs-ref-body .ref-dashboard .v52-operational{padding:13px;}.cs-ref-body .ref-dashboard .v52-operational-item{padding:11px;min-height:80px;}.cs-ref-body .ref-dashboard .v52-operational-copy strong{font-size:21px;}.cs-ref-body .ref-dashboard .ref-panel a.v52-panel-link{font-size:9px;}.cs-ref-body .ref-dashboard .ref-panel-heading h2{font-size:13px;}.cs-ref-body .ref-dashboard .ref-donut-layout{min-height:190px;}}
+@media(max-width:410px){.cs-ref-body .ref-dashboard .v52-operational-grid{grid-template-columns:1fr;}.cs-ref-body .ref-dashboard .v52-operational-item{min-height:72px;}.cs-ref-body .ref-dashboard .v52-operational-copy small{font-size:10px;}}
+@media(prefers-reduced-motion:reduce){.cs-ref-body .ref-dashboard .v52-chart-tooltip,.cs-ref-body .ref-dashboard .v52-operational-item{transition:none;}}

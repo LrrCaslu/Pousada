@@ -1,0 +1,21 @@
+/* Costa Serena 2026: visual editorial do site e ferramentas de gestao. */
+.hero{background:linear-gradient(110deg,#112d26,#285448);position:relative}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 18%,#e6c48d17,transparent 47%);pointer-events:none}
+.hero-grid{position:relative;z-index:1}.hero-art{position:relative;border:6px solid #ffffff21;border-radius:20px 120px 20px 20px;box-shadow:0 26px 72px #081b1690;transition:transform .45s}
+.hero-art:hover{transform:translateY(-6px)}.hero-art img{object-position:center}
+.hero-photo-note{position:absolute;z-index:1;bottom:18px;left:18px;background:#fffdecdf;color:#254a40;padding:10px 13px;border-radius:8px;font-size:.7rem;letter-spacing:.1em;font-weight:800}
+.visual-story .section-heading{align-items:flex-end}.visual-disclaimer{color:#9aa69e;font-size:.76rem;font-weight:600;align-self:flex-end}
+.visual-story-grid{display:grid;grid-template-columns:1.15fr .85fr;grid-template-rows:185px 185px;gap:15px}
+.visual-story-card{position:relative;display:block;text-align:left;width:100%;border:0;padding:0;overflow:hidden;border-radius:16px;background:#1d3931;cursor:zoom-in}
+.visual-story-card.visual-story-main{grid-row:span 2}.visual-story-card img{width:100%;height:100%;object-fit:cover;transition:transform .5s,filter .35s}
+.visual-story-card:hover img,.visual-story-card:focus-visible img{transform:scale(1.035);filter:saturate(1.12)}
+.visual-story-card:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#071813ca,transparent 60%);pointer-events:none}
+.visual-story-card>span{position:absolute;bottom:24px;left:25px;color:#fff;z-index:1;display:flex;flex-direction:column;gap:1px}
+.visual-story-card b{font:500 1.55rem Georgia,serif}.visual-story-card small{font-size:.76rem;color:#e6eee7}
+.page-photo{width:100%;height:100%;object-fit:cover;border-radius:14px}.page-photo:first-child{grid-row:span 2}
+.gallery-dialog{position:fixed;border:0;max-width:min(96vw,1080px);max-height:92vh;border-radius:16px;overflow:hidden;padding:0;background:#14251e;color:#fff;box-shadow:0 40px 110px #0009}
+.gallery-dialog::backdrop{background:#071610d9;backdrop-filter:blur(6px)}.gallery-dialog img{display:block;max-width:100%;max-height:78vh;object-fit:contain}.gallery-dialog p{color:#fff;margin:0;padding:13px 20px;font-size:.85rem}
+.gallery-dialog-close{position:absolute;z-index:2;top:12px;right:12px;background:#fff;color:#254a40;border-radius:50%;width:37px;height:37px;font-size:1rem;box-shadow:0 3px 8px #0004}
+.room-card>a{overflow:hidden;display:block}.room-card>a img{transition:transform .45s}.room-card:hover>a img{transform:scale(1.04)}
+@media(max-width:850px){.visual-story-grid{grid-template-rows:165px 165px}.hero-art{border-radius:20px 100px 20px 20px}}
+@media(max-width:600px){.visual-story-grid{display:grid;grid-template-columns:1fr;grid-template-rows:repeat(3,200px)}.visual-story-card.visual-story-main,.page-photo:first-child{grid-row:auto}.visual-story .section-heading{display:block}.visual-disclaimer{margin-top:8px}.hero-art{height:260px}.hero-photo-note{font-size:.6rem}}
